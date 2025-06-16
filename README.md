@@ -60,6 +60,6 @@ Project            | Skills           | Description
 -------------------|------------------|-----------------------------
 [ShoFriend](https://github.com/Wjyuy/Shofriend_boot) | spring boot | 팀 프로젝트, 기여도 : 50% 
 [RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트, 기여도 : 50% 
-[GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & React | 개인 프로젝트, 기여도 : 100% 
+[GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & TypeScript | 개인 프로젝트, 기여도 : 100% 
 [MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트, 기여도 : 30% 
 
