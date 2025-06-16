@@ -33,12 +33,12 @@ Tensorflow를 통해서 포스트[링크]를 참고해서 Resnet직접 구현해
 
 ### 1.4. 보유 역량
 4개의 개인, 협업 프로젝트 개발 경험 
-Skill        | Experiences | Careers | Note
--------------|-------------|---------|-----------------------------------
-C++          | 12 년       | 3 년    | Spring framework, JPA or Query 기반으로 간단한 Backend API 서버 자체 개발 가능
-Docker Registry   | 8 년        | 4 년    | 를 통한 Image 관리 및 Docker, Docker-Compose를 통한 서버 배포 경험
-ActionScript | 20 년       | 2 년    | Flex Architecture 를 통해 고급 설계에 입문함
-DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
+Skill        | Note
+-------------|-----------------------------------
+C++          | Spring framework, JPA or Query 기반으로 간단한 Backend API 서버 자체 개발 가능
+Docker Registry      |  Image 관리 및 Docker, Docker-Compose를 통한 서버 배포 경험
+ActionScript | Flex Architecture 를 통해 고급 설계에 입문함
+DB/SQL       | ERD 설계에 능함
 
 ### 1.5. Experiences
 
