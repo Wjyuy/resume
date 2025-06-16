@@ -17,35 +17,20 @@
 ### 1.3. 지원 직무
 Junior Backend Engineer
 
-
-
-SFTP를 통한 수동 배포 방식에서 Jenkins의 Git Branch 연동을 이용한 자동화 배포 전환 경험
-자체 IDC, NCP, AWS 서비스 배포 작업 경험 (EC2)
-
-Software Development
-Junit, Mockito, Jmeter 등을 이용한 테스트 수행 경험
-TestContainers를 통한 통합 테스트 환경 구성 및 수행 경험
-Swagger (OAS 3), Rest Docs를 이용한 API 문서화 경험
-Machine Learning Engineering
-ABC 부트캠프 6개월 과정 수료 및 팀 프로젝트를 통한 머신러닝 엔지니어링에 대한 기초적인 이해 보유 [링크] 
-FastAPI + RabbitMQ를 사용한 머신러닝 인퍼런스 서버 개발 토이프로젝트 경험 [Github 링크]
-Tensorflow를 통해서 포스트[링크]를 참고해서 Resnet직접 구현해봄
-
 ### 1.4. 보유 역량
 4개의 개인, 협업 프로젝트 개발 경험 
 Skill        | Note
 -------------|-----------------------------------
-C++          | Spring framework, JPA or Query 기반으로 간단한 Backend API 서버 자체 개발 가능
+Spring          | Spring framework, Mybatis or Query 기반으로 간단한 Backend API 서버 자체 개발 가능
 Docker Registry      |  Image 관리 및 Docker, Docker-Compose를 통한 서버 배포 경험
-ActionScript | Flex Architecture 를 통해 고급 설계에 입문함
-DB/SQL       | ERD 설계에 능함
+TypeScript | Next.js 기반으로 확장 가능하고 사용자 친화적인 웹 애플리케이션 개발 가능
+DB/SQL       | 효율적인 ERD 설계에 및 복잡한 SQL 쿼리 작성 능력
 
 ### 1.5. Experiences
 
-
-Company | Entry Date | Leave Date | Form
+Company | Entry Date | Leave Date | Note
 --------|------------|------------|-------
-
+KH정보교육원 | 2025.01.15 | 2025.07.10 | 빅데이터 기반 엘라스틱 검색엔진 개발자 과정 부트캠프 6개월 과정 수료
 
 
 
@@ -71,8 +56,10 @@ Company | Entry Date | Leave Date | Form
 
 
 ## [3. My Projects]
-### [3.1. Open Source Projects]
 Project            | Skills           | Description
 -------------------|------------------|-----------------------------
-[ShoFriend](https://github.com/wjyuy) | spring boot | Runtime 
+[ShoFriend](https://github.com/Wjyuy/Shofriend_boot) | spring boot | 팀 프로젝트, 기여도 : 50% 
+[RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트, 기여도 : 50% 
+[GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & React | 개인 프로젝트, 기여도 : 100% 
+[MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트, 기여도 : 30% 
 
