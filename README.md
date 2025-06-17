@@ -72,7 +72,7 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 <details>
 <summary>shofriend 포스터</summary>
 
-[![shofrinedposter](./lib/shofrinedposter.PNG)]
+![shofrinedposter](./lib/shofrinedposter.PNG)
 </details>
 
 <p>첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 프로젝트입니다.</p>
@@ -92,7 +92,7 @@ Skill : MySQL, MyBatis , jQuery , Ajax
 <details>
 <summary>shofriend 포스터</summary>
 
-[![recallposter](./lib/recallposter.png)]
+![recallposter](./lib/recallposter.png)
 </details>
 
 [Render활용한 배포](https://recall-final-front.onrender.com/)링크는 BE서버 불안정으로 접속이 불가할 수 있습니다.
