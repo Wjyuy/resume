@@ -106,6 +106,21 @@ Skill : MySQL, MyBatis , jQuery , Ajax
 Language : Spring Boot(REST API) , Java , JavaScript <br>
 Skill : MySQL, MyBatis, React
 
+### 3.2. 개인 프로젝트(Gemsup)
+[![Gemsup](./lib/gemsup.png)](https://github.com/Wjyuy/Gemsup)
+
+<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
+
+<p>Gemsup은 docker 배포, Typescript 적용 학습을 위해 제작한 개인 프로젝트로, IGDB api를 활용한 게임리스트 서치 및 정보출력 웹사이트입니다. </p>
+
+- 프로젝트 진행 기간 : `2025. 05. 27 ~ 2025. 05.30`
+  <-- 
+- JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
+- 핵심 역할 : 팀장(PM), React 기반 SPA로 FE 마이그레이션 및 컴포넌트/레이아웃화, Spring Boot 백엔드, REST API 연동, chart, pdf generater활용, Google gemini Api 활용한 챗봇기능, 분석기능 제작
+
+Language : Spring Boot(REST API) , Java , JavaScript <br>
+Skill : MySQL, MyBatis, React
+-->
 
 ### 3.4. 빅데이터 검색 엔진 프로젝트(MoodSync)
 
