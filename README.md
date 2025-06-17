@@ -65,20 +65,24 @@ KH정보교육원 | 2025.01.15 | 2025.07.10 | 빅데이터 기반 엘라스틱 �
 ## 3. My Projects
 ### 3.1. ShoFriend
 [ShoFriend](https://github.com/Wjyuy/Shofriend_boot)
+첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 프로젝트입니다.
 
 - 프로젝트 진행 기간 : `2025. 05. 07 ~ 2025. 05. 14`
 - Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
-- 핵심 역할 : 팀장(PM), Spring boot로 마이그레이션, 카카오페이 api 결제 기능 도입, 친구 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링
+- 핵심 역할 : 팀장(PM), UUID 이미지 및 상품 CRUD, 장바구니 기능, 카카오페이 api 결제 기능 도입, 친구 CRUD및 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링, Spring boot로 마이그레이션
 
 Language : Spring Boot , Java , JSP&Servlet
 Skill : MySQL, MyBatis , jQuery , Ajax 
 
 ### 3.2. RecallCenter
 [RecallCenter](https://github.com/Wjyuy/Recall_Final)
+[Render활용한 배포](https://recall-final-front.onrender.com/)링크는 BE서버 불안정으로 접속이 불가할 수 있습니다.
+
+리액트를 사용해 전반적인 디자인을 맡았고 chart와 데이터 출력, pdf generater등을 활용한 빅데이터 사이트 프로젝트입니다.
 
 - 프로젝트 진행 기간 : `2025. 05. 19 ~ 2025. 05. 25`
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
-- 핵심 역할 : 팀장(PM), React 기반 SPA로 FE 마이그레이션, Spring Boot 백엔드, REST API 연동
+- 핵심 역할 : 팀장(PM), React 기반 SPA로 FE 마이그레이션 및 컴포넌트/레이아웃화, Spring Boot 백엔드, REST API 연동, chart, pdf generater활용, Google gemini Api 활용한 챗봇기능, 분석기능 제작
 
 Language : Spring Boot(REST API) , Java , JavaScript 
 Skill : MySQL, MyBatis, React
@@ -89,7 +93,7 @@ Skill : MySQL, MyBatis, React
 
 - 프로젝트 진행 기간 : `2025. 05. 27 ~ 2025. 06. 16`
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
-- 핵심 역할 : TypeScript를 활용한 FE 제작, hello-pangea적용한 로직 제작, Face-api
+- 핵심 역할 : TypeScript구조파악 및 코드리뷰,라우트 엔트리 포인트 컴포넌트/레이아웃화, hello-pangea적용한 로직 제작, Face-api 계산 hook 제작, Collection 페이지CRUD 및 리스트 재정렬 기능 제작, jwt와 security설정 REST API방식으로 마이그레이션
 
 Language : Spring Boot(REST API), Java, TypeScript 
 Skill : Oracle, MyBatis, Next.js
