@@ -64,6 +64,9 @@ KH정보교육원 | 2025.01.15 | 2025.07.10 | 빅데이터 기반 엘라스틱 �
 
 ## 3. My Projects
 ### 3.1. ShoFriend
+
+[![shofriendmain](./lib/shofriendmain.png)](https://github.com/Wjyuy/Shofriend_boot)
+
 [ShoFriend](https://github.com/Wjyuy/Shofriend_boot)
 첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 프로젝트입니다.
 
