@@ -97,7 +97,7 @@ Skill : MySQL, MyBatis , jQuery , Ajax
 
 [Render활용한 배포](https://recall-final-front.onrender.com/)링크는 BE서버 불안정으로 접속이 불가할 수 있습니다.
 
-<p>RecallCenter는 [공공데이터포탈[(https://www.data.go.kr/data/3048950/fileData.do)의 자동차 결함 리콜현황 데이터를 활용한 빅데이터 프로젝트입니다. </p>
+<p>RecallCenter는 [공공데이터포탈](https://www.data.go.kr/data/3048950/fileData.do)의 자동차 결함 리콜현황 데이터를 활용한 빅데이터 프로젝트입니다. </p>
 
 - 프로젝트 진행 기간 : `2025. 05. 19 ~ 2025. 05. 25`
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
