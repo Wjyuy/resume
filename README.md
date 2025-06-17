@@ -67,38 +67,59 @@ KH정보교육원 | 2025.01.15 | 2025.07.10 | 빅데이터 기반 엘라스틱 �
 
 [![shofriendmain](./lib/shofriendmain.png)](https://github.com/Wjyuy/Shofriend_boot)
 
-[ShoFriend](https://github.com/Wjyuy/Shofriend_boot)
-첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 프로젝트입니다.
+<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
+
+<details>
+<summary>shofriend 포스터</summary>
+
+[![shofrinedposter](./lib/shofrinedposter.PNG)]
+</details>
+
+<p>첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 프로젝트입니다.</p>
 
 - 프로젝트 진행 기간 : `2025. 05. 07 ~ 2025. 05. 14`
 - Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
 - 핵심 역할 : 팀장(PM), UUID 이미지 및 상품 CRUD, 장바구니 기능, 카카오페이 api 결제 기능 도입, 친구 CRUD및 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링, Spring boot로 마이그레이션
 
-Language : Spring Boot , Java , JSP&Servlet
+Language : Spring Boot , Java , JSP&Servlet<br>
 Skill : MySQL, MyBatis , jQuery , Ajax 
 
 ### 3.2. RecallCenter
-[RecallCenter](https://github.com/Wjyuy/Recall_Final)
+[![recallmain](./lib/recallmain.png)](https://github.com/Wjyuy/Recall_Final)
+
+<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
+
+<details>
+<summary>shofriend 포스터</summary>
+
+[![recallposter](./lib/recallposter.png)]
+</details>
+
 [Render활용한 배포](https://recall-final-front.onrender.com/)링크는 BE서버 불안정으로 접속이 불가할 수 있습니다.
 
-리액트를 사용해 전반적인 디자인을 맡았고 chart와 데이터 출력, pdf generater등을 활용한 빅데이터 사이트 프로젝트입니다.
+<p>RecallCenter는 [공공데이터포탈[(https://www.data.go.kr/data/3048950/fileData.do)의 자동차 결함 리콜현황 데이터를 활용한 빅데이터 프로젝트입니다. </p>
 
 - 프로젝트 진행 기간 : `2025. 05. 19 ~ 2025. 05. 25`
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
 - 핵심 역할 : 팀장(PM), React 기반 SPA로 FE 마이그레이션 및 컴포넌트/레이아웃화, Spring Boot 백엔드, REST API 연동, chart, pdf generater활용, Google gemini Api 활용한 챗봇기능, 분석기능 제작
 
-Language : Spring Boot(REST API) , Java , JavaScript 
+Language : Spring Boot(REST API) , Java , JavaScript <br>
 Skill : MySQL, MyBatis, React
 
 
 ### 3.4. MoodSync
-[MoodSync](https://github.com/Wjyuy/MoodSync)
+
+[![MoodSync](./lib/moodsyncmain.png)](https://github.com/Wjyuy/MoodSync)
+
+<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
+
+<p>MoodSync는 사용자의 감정을 파악하고 그에 맞는 음악, 책, 활동을 추천하는 사이트입니다.</p>
 
 - 프로젝트 진행 기간 : `2025. 05. 27 ~ 2025. 06. 16`
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
 - 핵심 역할 : TypeScript구조파악 및 코드리뷰,라우트 엔트리 포인트 컴포넌트/레이아웃화, hello-pangea적용한 로직 제작, Face-api 계산 hook 제작, Collection 페이지CRUD 및 리스트 재정렬 기능 제작, jwt와 security설정 REST API방식으로 마이그레이션
 
-Language : Spring Boot(REST API), Java, TypeScript 
+Language : Spring Boot(REST API), Java, TypeScript <br>
 Skill : Oracle, MyBatis, Next.js
 
 
