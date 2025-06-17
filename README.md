@@ -63,7 +63,7 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 
 
 ## 3. My Projects
-### 3.1. ShoFriend
+### 3.1. 상품 구매 웹서비스 (ShoFriend)
 
 [![shofriendmain](./lib/shofriendmain.png)](https://github.com/Wjyuy/Shofriend_boot)
 
@@ -75,7 +75,7 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 ![shofrinedposter](./lib/shofrinedposter.PNG)
 </details>
 
-<p>첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 프로젝트입니다.</p>
+<p>첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 상품 구매 웹서비스 프로젝트입니다.</p>
 
 - 프로젝트 진행 기간 : `2025. 05. 07 ~ 2025. 05. 14`
 - Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
@@ -84,7 +84,7 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 Language : Spring Boot , Java , JSP&Servlet<br>
 Skill : MySQL, MyBatis , jQuery , Ajax 
 
-### 3.2. RecallCenter
+### 3.2. 빅데이터 프로젝트(RecallCenter)
 [![recallmain](./lib/recallmain.png)](https://github.com/Wjyuy/Recall_Final)
 
 <p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
@@ -107,17 +107,17 @@ Language : Spring Boot(REST API) , Java , JavaScript <br>
 Skill : MySQL, MyBatis, React
 
 
-### 3.4. MoodSync
+### 3.4. 빅데이터 검색 엔진 프로젝트(MoodSync)
 
 [![MoodSync](./lib/moodsyncmain.png)](https://github.com/Wjyuy/MoodSync)
 
 <p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
 
-<p>MoodSync는 사용자의 감정을 파악하고 그에 맞는 음악, 책, 활동을 추천하는 사이트입니다.</p>
+<p>MoodSync는 사용자의 감정을 파악하고 그에 맞는 음악, 책, 활동을 추천하는 웹사이트 프로젝트입니다.</p>
 
 - 프로젝트 진행 기간 : `2025. 05. 27 ~ 2025. 06. 16`
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
-- 핵심 역할 : TypeScript구조파악 및 코드리뷰,라우트 엔트리 포인트 컴포넌트/레이아웃화, hello-pangea적용한 로직 제작, Face-api 계산 hook 제작, Collection 페이지CRUD 및 리스트 재정렬 기능 제작, jwt와 security설정 REST API방식으로 마이그레이션
+- 핵심 역할 : TypeScript구조파악 및 코드리뷰, 라우트 엔트리 포인트 컴포넌트/레이아웃화, hello-pangea적용한 로직 제작, Face-api 계산 hook 제작, Collection 페이지CRUD 및 리스트 재정렬 기능 제작, jwt와 security설정 REST API방식으로 마이그레이션
 
 Language : Spring Boot(REST API), Java, TypeScript <br>
 Skill : Oracle, MyBatis, Next.js
