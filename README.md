@@ -15,7 +15,7 @@
   - 학점: 3.72 / 4.50
 
 ### 1.3. 지원 직무
-Junior Backend Engineer
+Junior full stack developer
 
 ### 1.4. 보유 역량
 4개의 개인, 협업 프로젝트 개발 경험 
