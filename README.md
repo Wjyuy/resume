@@ -1,5 +1,10 @@
 # Resume of [JooYeon](https://github.com/Wjyuy)
-> 
+>
+## 안녕하세요, Java 풀스택 개발자 우주연입니다.
+
+### Introduction
+스펀지처럼 지식을 흡수하며 성장하는 개발자가 되고 싶습니다.
+항상 겸손한 자세로 새로운 것을 배우고자 노력합니다. 공부한 내용은 [블로그](https://dnwndus.tistory.com/)와 [노션](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)에 포스팅하고 있습니다.
 
 ### 1.1. Profile
 이름: 우 주연
@@ -7,15 +12,20 @@
   - 생년월일: 2002-08-27
   - 연락처: 010-2374-0030
   - Github: [https://github.com/Wjyuy](https://github.com/Wjyuy)
+  - Blog: [https://dnwndus.tistory.com](https://dnwndus.tistory.com/)
+  - Email: zhzhwm@naver.com
 
 ### 1.2. Education
-동아대학교, 2021-03 ~ 2025-02
+동아대학교 졸업 `2021-03 ~ 2025-02`
 
   - 주전공: 전자공학과
   - 학점: 3.72 / 4.50
 
-### 1.3. 지원 직무
-Junior full stack developer
+### 1.3. Experiences
+
+Company | Entry Date | Leave Date | Note
+--------|------------|------------|-------
+KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 검색엔진 개발자 과정 부트캠프 6개월 과정 수료 [[노션기록]](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)
 
 ### 1.4. 보유 역량
 4개의 개인, 협업 프로젝트 개발 경험 
@@ -37,13 +47,6 @@ Framework & Runtime | Spring (Boot, Legacy), Node.js, Next.js, Tailwind CSS
 Database	 | Oracle, MySQL, PostgreSQL
 Tools       | Eclipse, Visual studio Code, IntelliJ IDEA
 Collaboration       | GitHub, Notion, Slack, Jira, Flow
-
-
-### 1.5. Experiences
-
-Company | Entry Date | Leave Date | Note
---------|------------|------------|-------
-KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 검색엔진 개발자 과정 부트캠프 6개월 과정 수료 [[노션기록]](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)
 
 
 ## 2. Introduction
@@ -75,7 +78,7 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 
 
 
-## 3. My Projects
+## 3. Projects
 ### 3.1. 상품 구매 웹서비스 (ShoFriend)
 
 [![shofriendmain](./lib/shofriendmain.png)](https://github.com/Wjyuy/Shofriend_boot)
@@ -84,22 +87,29 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 
 <details>
 <summary>shofriend 포스터</summary>
-
 ![shofrinedposter](./lib/shofrinedposter.PNG)
 </details>
 
 <p>첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 상품 구매 웹서비스 프로젝트입니다.</p>
 
 - 프로젝트 진행 기간 : `2025. 05. 07 ~ 2025. 05. 14`
-- Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
-- 핵심 역할 : 팀장(PM), UUID 이미지 및 상품 CRUD, 장바구니 기능, 카카오페이 api 결제 기능 도입, 친구 CRUD및 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링, Spring boot로 마이그레이션
-
-| division  | skill                                                     |
-|-----------|-----------------------------------------------------------|
-| **Front-end** | **JSP & Servlet**, **jQuery**, **Ajax**, **JavaScript(ES6+)**  |
-| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
-| **DB** | **MySQL**                 |
   
+- 내가 기여한 부분
+
+  - Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
+  - 핵심 역할 : 팀장(PM), UUID 이미지 및 상품 CRUD, 장바구니 기능, 카카오페이 api 결제 기능 도입, 친구 CRUD및 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링, Spring boot로 마이그레이션
+
+- 사용 기술 
+  -JSP & Servlet 
+  -Ajax 
+  -JavaScript ES6+ 
+  -Spring Boot 2.7.x 
+  -Java 17 
+  -MyBatis 2.3.x
+  -MySQL
+-트러블 슈팅
+  -해당 경험을 통해 알게된 점
+
 
 ### 3.2. 빅데이터 프로젝트(RecallCenter)
 [![recallmain](./lib/recallmain.png)](https://github.com/Wjyuy/Recall_Final)
@@ -163,6 +173,7 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 | **Front-end** | **React(18.2.0)**, **Next.js(15.2.x)**, **Typescript(5)**, **tailwindcss(3.4.x)** |
 | **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
 | **DB** | **Oracle**                 |
+
 
 
 Project            | Skills           | Description
