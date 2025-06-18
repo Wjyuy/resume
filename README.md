@@ -81,8 +81,12 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 - Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
 - 핵심 역할 : 팀장(PM), UUID 이미지 및 상품 CRUD, 장바구니 기능, 카카오페이 api 결제 기능 도입, 친구 CRUD및 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링, Spring boot로 마이그레이션
 
-Language : Spring Boot , Java , JSP&Servlet<br>
-Skill : MySQL, MyBatis , jQuery , Ajax 
+| division  | skill                                                     |
+|-----------|-----------------------------------------------------------|
+| **Front-end** | **JSP & Servlet**, **jQuery**, **Ajax**, **JavaScript**  |
+| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
+| **DB** | **MySQL**                 |
+  
 
 ### 3.2. 빅데이터 프로젝트(RecallCenter)
 [![recallmain](./lib/recallmain.png)](https://github.com/Wjyuy/Recall_Final)
@@ -103,8 +107,12 @@ Skill : MySQL, MyBatis , jQuery , Ajax
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
 - 핵심 역할 : 팀장(PM), React 기반 SPA로 FE 마이그레이션 및 컴포넌트/레이아웃화, Spring Boot 백엔드, REST API 연동, chart, pdf generater활용, Google gemini Api 활용한 챗봇기능, 분석기능 제작
 
-Language : Spring Boot(REST API) , Java , JavaScript <br>
-Skill : MySQL, MyBatis, React
+| division  | skill                                                     |
+|-----------|-----------------------------------------------------------|
+| **Front-end** | **React(19.1.0)**, **Node.js(v22.14.0)**, **JavaScript**  |
+| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
+| **DB** | **MySQL**                 |
+
 
 ### 3.2. 개인 프로젝트(Gemsup)
 [![Gemsup](./lib/gemsup.png)](https://github.com/Wjyuy/Gemsup)
@@ -117,8 +125,12 @@ Skill : MySQL, MyBatis, React
 - IGDB API연동, DB 저장 및 캐싱
 - 핵심 역할 : 목록 조회(무한 스크롤, 페이징, 정렬, 필터링), 상세 정보 조회, 검색/필터 UI, 카드형 목록
 
-Language : Spring Boot(REST API) , Java , JavaScript <br>
-Skill : MySQL, MyBatis, React
+| division  | skill                                                     |
+|-----------|-----------------------------------------------------------|
+| **Front-end** | **React(19.1.0)**, **Node.js(16.x)**, **Typescript(4.9.5)** |
+| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
+| **DB** | **PostgreSQL**                 |
+| **Infra** | **Docker(3.8)**                 |
 
 
 ### 3.4. 빅데이터 검색 엔진 프로젝트(MoodSync)
@@ -133,14 +145,17 @@ Skill : MySQL, MyBatis, React
 - JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
 - 핵심 역할 : TypeScript구조파악 및 코드리뷰, 라우트 엔트리 포인트 컴포넌트/레이아웃화, hello-pangea적용한 로직 제작, Face-api 계산 hook 제작, Collection 페이지CRUD 및 리스트 재정렬 기능 제작, jwt와 security설정 REST API방식으로 마이그레이션
 
-Language : Spring Boot(REST API), Java, TypeScript <br>
-Skill : Oracle, MyBatis, Next.js
+| division  | skill                                                     |
+|-----------|-----------------------------------------------------------|
+| **Front-end** | **React(18.2.0)**, **Next.js(15.2.x)**, **Typescript(5)**, **tailwindcss(3.4.x)** |
+| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
+| **DB** | **Oracle**                 |
 
 
 Project            | Skills           | Description
 -------------------|------------------|-----------------------------
-[ShoFriend](https://github.com/Wjyuy/Shofriend_boot) | spring boot | 팀 프로젝트(팀장), 기여도 : 50% 
-[RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트(팀장), 기여도 : 50% 
-[GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & TypeScript | 개인 프로젝트, 기여도 : 100% 
-[MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트, 기여도 : 30% 
+[ShoFriend](https://github.com/Wjyuy/Shofriend_boot) | spring boot | 팀 프로젝트(팀장), 전체 프로젝트 기여도 : 50% 
+[RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트(팀장), 전체 프로젝트 기여도 : 50% 
+[GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & TypeScript | 개인 프로젝트
+[MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트, 전체 프로젝트 기여도 : 30% 
 
