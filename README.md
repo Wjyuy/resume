@@ -1,11 +1,11 @@
 # Resume of [JooYeon](https://github.com/Wjyuy)
 
-## 안녕하세요, Java 풀스택 개발자 우주연입니다.
+### 안녕하세요, Java 풀스택 개발자 우주연입니다.
 
 스펀지처럼 지식을 흡수하며 성장하는 개발자가 되고 싶습니다.
-항상 겸손한 자세로 새로운 것을 배우고자 노력합니다. 공부한 내용은 [블로그](https://dnwndus.tistory.com/)와 [노션](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)에 포스팅하고 있습니다.
+항상 겸손한 자세로 새로운 것을 배우고자 노력합니다. 공부한 내용은 [블로그](https://dnwndus.tistory.com/)와 [노션](https://bottlenose-broker-f2a.notion.site/6bff4e6cee5a40f8855b14e279ff7e87)에 포스팅하고 있습니다.
 
-### 1.1. Profile
+### Profile
 이름: 우 주연
 
   - 생년월일: 2002-08-27
@@ -13,39 +13,41 @@
   - Github: [https://github.com/Wjyuy](https://github.com/Wjyuy)
   - Blog: [https://dnwndus.tistory.com](https://dnwndus.tistory.com/)
   - Email: zhzhwm@naver.com
-
-### 1.2. Education
-동아대학교 졸업 `2021-03 ~ 2025-02`
-
-  - 주전공: 전자공학과
-  - 학점: 3.72 / 4.50
-
-### 1.3. Experiences
+  - 동아대학교 전자공학과 졸업
+    
+### Experiences
 
 Company | Entry Date | Leave Date | Note
 --------|------------|------------|-------
 KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 검색엔진 개발자 과정 부트캠프 6개월 과정 수료 [[노션기록]](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)
 
-### 1.4. 보유 역량
-4개의 개인, 협업 프로젝트 개발 경험 
 
-Skill        | Note
--------------|-----------------------------------
-Spring          | Spring framework, Mybatis or Query 기반으로 간단한 Backend API 서버 자체 개발 가능
-Docker Registry      |  Image 관리 및 Docker, Docker-Compose를 통한 서버 배포 경험
-TypeScript | Next.js 기반으로 확장 가능하고 사용자 친화적인 웹 애플리케이션 개발 가능
-DB/SQL       | 효율적인 ERD 설계 및 SQL 쿼리 작성 능력
-
-### 1.4.1 보유 기술
-
-Division        | Skill
--------------|-----------------------------------
-Back-End          | Java, MyBatis, Python, Tomcat
-Front-End      | JavaScript, JSP & Servlet, jQuery, HTML5, CSS3, Ajax, React, TypeScript
-Framework & Runtime | Spring (Boot, Legacy), Node.js, Next.js, Tailwind CSS
-Database	 | Oracle, MySQL, PostgreSQL
-Tools       | Eclipse, Visual studio Code, IntelliJ IDEA
-Collaboration       | GitHub, Notion, Slack, Jira, Flow
+### Skill
+**Java**
+- Spring Boot를 활용하여 RESTful API 서버를 구축한 경험이 있습니다.
+- MyBatis를 이용하여 효율적인 SQL 쿼리 작성, DB 연동, 관리 작업을 수행할 수 있습니다.
+- DI, AOP 등 Spring 핵심 원리를 이해하고 프로젝트에 적용할 수 있습니다.
+  
+**Oracle & MySQL**
+- 관계형 데이터베이스를 다룰 수 있습니다.
+- 데이터베이스 쿼리 최적화 및 인덱싱을 통해 성능 개선 경험이 있습니다.
+- JOIN Query, View, Procedure등을 작성하여 데이터를 효율적으로 조회하고 조작할 수 있습니다.
+  
+**NextJS**
+- API Routes를 활용하여 클라이언트와 백엔드 간의 데이터 통신을 중계하는 BFF 레이어를 구축하고 관리한 경험이 있습니다.
+  - Axios interceptor를 활용하여 중앙집중식 API 요청 및 응답 처리 로직을 구현했습니다. 이를 통해 JWT인증 자동화 및 공통 에러 핸들링을 효과적으로 처리했습니다.
+- CRUD및 특정 비즈니스 로직(순서 변경,복사 등)을 처리하는 다양한 API 연동 함수를 구현했습니다.
+  
+**TypeScript & JavaScript**
+- 비동기 처리를 활용한 프로그래밍이 가능합니다.
+- React / Next.js 환경에서 TypeScript를 적용하여 타입 안정성을 확보하며 개발한 경험이 있습니다.
+- 클린 코드 및 재사용 가능한 컴포넌트 설계 원칙을 준수하여 개발할 수 있습니다.
+  
+**ETC**
+- Docker
+  - Image 관리 및 애플리케이션을 컨테이너화하고 배포 환경을 구축한 경험이 있습니다.
+- Slack & Jira & Flow
+  - 프로젝트 팀장으로서, PM역할을 맡아 자동화 환경을 구축한 경험이 있습니다.
 
 
 ## 2. Introduction
