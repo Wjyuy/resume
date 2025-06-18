@@ -2,7 +2,6 @@
 >
 ## 안녕하세요, Java 풀스택 개발자 우주연입니다.
 
-### Introduction
 스펀지처럼 지식을 흡수하며 성장하는 개발자가 되고 싶습니다.
 항상 겸손한 자세로 새로운 것을 배우고자 노력합니다. 공부한 내용은 [블로그](https://dnwndus.tistory.com/)와 [노션](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)에 포스팅하고 있습니다.
 
