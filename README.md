@@ -1,5 +1,5 @@
 # Resume of [JooYeon](https://github.com/Wjyuy)
->
+
 ## 안녕하세요, Java 풀스택 개발자 우주연입니다.
 
 스펀지처럼 지식을 흡수하며 성장하는 개발자가 되고 싶습니다.
