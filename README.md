@@ -11,22 +11,22 @@ Slack과 Jira를 활용한 이슈관리를 통해 프로젝트의 히스토리�
 ### Profile
 이름: 우 주연
 
-  - 생년월일: 2002-08-27
-  - 연락처: 010-2374-0030
-  - Github: [https://github.com/Wjyuy](https://github.com/Wjyuy)
-  - Blog: [https://dnwndus.tistory.com](https://dnwndus.tistory.com/)
-  - Email: zhzhwm@naver.com
-  - 동아대학교 전자공학과 졸업
+  - 📅 2002-08-27
+  - 📞 010-2374-0030
+  - [Github](https://github.com/Wjyuy)
+  - [Blog](https://dnwndus.tistory.com/)
+  - zhzhwm@naver.com
+  - 동아대학교 전자공학과(졸업)
     
 ### Experiences
 
 Company | Entry Date | Leave Date | Note
 --------|------------|------------|-------
-KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 검색엔진 개발자 과정 부트캠프 6개월 과정 수료 [[노션기록]](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)
+🏢KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 검색엔진 개발자 과정 부트캠프 6개월 과정 수료 [[노션기록]](https://bottlenose-broker-f2a.notion.site/KH-2025-01-15-2025-07-10-17ca4c822156809eb3acdd4f06c81792?pvs=74)
 
 
 ## Skill
-### Java 
+### Java & Spring Boot
 - Spring Boot를 활용하여 RESTful API 서버 구축이 가능합니다.
 - MyBatis를 이용하여 효율적인 SQL 쿼리 작성, DB 연동, 관리 작업을 할 수 있습니다.
 - DI, AOP 등 Spring 핵심 원리를 이해하고 프로젝트에 적용할 수 있습니다.
@@ -53,36 +53,56 @@ KH정보교육원 | 2025.01.15 | 2025.07.14 | 빅데이터 기반 엘라스틱 �
 
 
 ## Projects
-### 3.1. 상품 구매 웹서비스 (ShoFriend)
 
-[![shofriendmain](./lib/shofriendmain.png)](https://github.com/Wjyuy/Shofriend_boot)
-
-<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
+### 3.1. ShoFriend
+'메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 상품 구매 웹사이트입니다. 
+[Github →](https://github.com/Wjyuy/Shofriend_boot)
 
 <details>
-<summary>shofriend 포스터</summary>
+<summary>포스터</summary>
 ![shofrinedposter](./lib/shofrinedposter.PNG)
 </details>
 
-<p>첫 팀 프로젝트로, '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 상품 구매 웹서비스 프로젝트입니다.</p>
+1. 프로젝트 진행 기간 `2025. 05. 07 ~ 2025. 05. 14`
 
-- 프로젝트 진행 기간 : `2025. 05. 07 ~ 2025. 05. 14`
-  
-- 내가 기여한 부분
+2. 내가 기여한 부분
+    1. 팀장 & PM
+        - slack-Jira 간 이슈 생성 자동화 환경 구축, slack-github 간 커밋&이슈 생성 자동화 환경 구축으로 **정보 흐름을 일원화**
+        - 스프린트-스크럼 단위의 백로그를 활용하여 진행도와 설계에 맞춘 정교한 일정 관리를 수행하고, 업무 분담 최적화
 
-  - Spring legacy기반 프로젝트를 Spring boot로 마이그레이션
-  - 핵심 역할 : 팀장(PM), UUID 이미지 및 상품 CRUD, 장바구니 기능, 카카오페이 api 결제 기능 도입, 친구 CRUD및 추천 구매 알고리즘 고안 및 제작, bootstrap를 활용한 JSP FE 리팩토링, Spring boot로 마이그레이션
+    1. Spring Legacy 프로젝트를 Spring boot로 마이그레이션 
+        - DI, IoC, AOP기본 이해 바탕으로 Legacy MVC 구조를 Spring Boot구조로 전환
+        - DataSource 빈 설정을 포함한 MVC 전체 구조를 Spring Boot의 자동 구성을 활용하여 재설계 및 구현
+        - MyBatis 프레임워크 설정을 Spring Boot 환경에 맞게 최적화하여 데이터베이스 연동 효율적으로 변경
 
-- 사용 기술 
-  -JSP & Servlet 
-  -Ajax 
-  -JavaScript ES6+ 
-  -Spring Boot 2.7.x 
-  -Java 17 
-  -MyBatis 2.3.x
-  -MySQL
--트러블 슈팅
-  -해당 경험을 통해 알게된 점
+    1. 상품 CRUD 및 결제 시스템 구축 `기여도 80+%`
+        - UUID를 적용한 이미지 CRUD 기능 구현
+        - 카테고리에 따른 상품 조회 기능을 페이징 처리 및 다중 분류 방식으로 구현
+        - 상품 가격 및 할인 시간과 같이 주기적으로 변동하는 데이터를 백엔드에서 실시간으로 처리하고, JSP에 동적으로 반영하는 기능을 구현
+        - 장바구니 기능 구현: 상품 DB의 동적 변경에 따라 장바구니 내 상품 정보(가격, 재고 등)가 실시간으로 업데이트되도록 조인 쿼리를 활용하여 데이터 일관성 유지
+
+    1. 카카오페이 API 연동 결제 기능 `기여도 100%`
+        - 카카오페이 REST API를 활용하여 상품 주문 및 결제 시스템 구축
+        - 결제 생명주기에 따른 API 연동 로직 구현
+        - 결제 결과에 따른 데이터베이스 트랜잭션 처리 수행하여 데이터 무결성 확보
+    1. 친구 CRUD 및 추천 구매 알고리즘 고안 및 제작 `기여도 100%`
+        - 사용자 간 소셜 기능의 기본 CRUD를 구현
+        - 특정 상품을 구매한 사용자들이 함께 구매한 다른 상품을 추천하는 시스템 알고리즘 구현
+
+3. 사용 기술 
+    - Java 17 & Spring Boot
+    - Ajax 
+    - JavaScript ES6+ 
+    - MySQL
+
+4. 트러블 슈팅
+    - 문제 배경
+        - 상품 결제 구현 중,단품 결제를 POST 전송 로직으로 직접 구현하였는데 장바구니 기능을 통한 상품 결제와 연결하는데 문제가 발생했습니다. 
+    - 해결 방법
+        - JavaScript에서 상품 ID와 수량을 배열 형태로 동적으로 구성하고, 컨트롤러에서 효과적으로 파싱하고 반복 처리하여 여러 상품을 한 번에 결제하는 로직을 구현했습니다.
+    - 이전 코드와 비교 
+    
+    - 해당 경험을 통해 알게된 점
 
 
 ### 3.2. 빅데이터 프로젝트(RecallCenter)
