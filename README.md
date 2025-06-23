@@ -65,6 +65,17 @@ Company | Entry Date | Leave Date | Note
 
 </details>
 
+1. 실제 웹사이트 화면
+    <table>
+    <tr>
+        <td align="center">홈페이지 및 로그인</td>
+        <td align="center">결제 화면</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/905fb404-a37f-4c24-aee4-df4e0ffea413" alt="홈페이지" width="400"></td>
+        <td><img src="https://github.com/user-attachments/assets/bb2567a7-ae80-4ea1-9dea-1d31ac72ee7e" alt="결제" width="400"></td>
+    </tr>
+    </table>
 1. 프로젝트 진행 기간 `2025. 05. 07 ~ 2025. 05. 14`
 
 2. 내가 기여한 부분
@@ -102,20 +113,9 @@ Company | Entry Date | Leave Date | Note
         - 상품 결제 구현 중,단품 결제를 POST 전송 로직으로 직접 구현하였는데 장바구니 기능을 통한 상품 결제와 연결하는데 문제가 발생했습니다. 
     - 해결 방법
         - JavaScript에서 상품 ID와 수량을 배열 형태로 동적으로 구성하고, 컨트롤러에서 효과적으로 파싱하고 반복 처리하여 여러 상품을 한 번에 결제하는 로직을 구현했습니다.
-    - 이전 코드와 비교 
-
-        <table>
-        <tr>
-            <td align="center">이전 코드</td>
-            <td align="center">현재 코드</td>
-        </tr>
-        <tr>
-            <td><img src="./img/userflow.png" alt="이전" width="400"></td>
-            <td><img src="./img/friendflow.png" alt="현재" width="400"></td>
-        </tr>
-        </table>
 
     - 해당 경험을 통해 알게된 점
+        - 단품 결제를 먼저 구현하고 나면 장바구니와 연동하는것은 쉬울 것이라 생각하였습니다. 하지만 설계단에서 무슨 데이터를 전송할 지 정하지 않았고, 그를 쿼리로 보내면서 많은 처리가 필요하게 되었습니다. 결국 설계가 가장 중요하다는것을 깨달았습니다.
 
 
 ### 3.2. 빅데이터 프로젝트(RecallCenter)
