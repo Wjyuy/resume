@@ -55,11 +55,11 @@ Company | Entry Date | Leave Date | Note
 ## Projects
 
 ### 3.1. ShoFriend
-'메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 상품 구매 웹사이트입니다. 
+'메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 **상품판매 웹사이트**입니다. 
 [Github →](https://github.com/Wjyuy/Shofriend_boot)
 
 <details>
-<summary>포스터</summary>
+<summary>프로젝트 포스터</summary>
 
 ![shofrinedposter](./lib/shofrinedposter.PNG)
 
@@ -68,12 +68,20 @@ Company | Entry Date | Leave Date | Note
 1. 실제 웹사이트 화면
     <table>
     <tr>
-        <td align="center">홈페이지 및 로그인</td>
+        <td align="center">홈페이지 & 로그인</td>
         <td align="center">결제 화면</td>
     </tr>
     <tr>
         <td><img src="https://github.com/user-attachments/assets/905fb404-a37f-4c24-aee4-df4e0ffea413" alt="홈페이지" width="400"></td>
         <td><img src="https://github.com/user-attachments/assets/bb2567a7-ae80-4ea1-9dea-1d31ac72ee7e" alt="결제" width="400"></td>
+    </tr>
+    <tr>
+        <td align="center">친구공유 & 채팅</td>
+        <td align="center">판매자</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/8d97107d-cfad-4db9-a1b1-3998fd67b666" alt="친구" width="400"></td>
+        <td><img src="https://github.com/user-attachments/assets/63011e46-481e-4496-81e5-fb3259d8db5b" alt="판매자" width="400"></td>
     </tr>
     </table>
 1. 프로젝트 진행 기간 `2025. 05. 07 ~ 2025. 05. 14`
@@ -81,12 +89,11 @@ Company | Entry Date | Leave Date | Note
 2. 내가 기여한 부분
     1. 팀장 & PM
         - slack-Jira 간 이슈 생성 자동화 환경 구축, slack-github 간 커밋&이슈 생성 자동화 환경 구축으로 **정보 흐름을 일원화**
-        - **스프린트-스크럼 단위의 백로그를 활용**하여 진행도와 설계에 맞춘 정교한 일정 관리를 수행하고, 업무 분담 최적화
+        - **스프린트-스크럼 단위의 백로그를 활용**하여 진행도와 설계에 맞춘 일정 관리 수행, 업무 분담 최적화
 
     1. Spring Legacy 프로젝트를 Spring boot로 마이그레이션 
         - DI, IoC, AOP기본 이해 바탕으로 Legacy MVC 구조를 Spring Boot구조로 전환
         - DataSource 빈 설정을 포함한 MVC 전체 구조를 Spring Boot의 자동 구성을 활용하여 재설계 및 구현
-        - MyBatis 프레임워크 설정을 Spring Boot 환경에 맞게 최적화하여 데이터베이스 연동 효율적으로 변경
 
     1. 상품 CRUD 및 결제 시스템 구축 `기여도 80+%`
         - UUID를 적용한 이미지 CRUD 기능 구현
@@ -98,14 +105,16 @@ Company | Entry Date | Leave Date | Note
         - 카카오페이 REST API를 활용하여 상품 주문 및 결제 시스템 구축
         - 결제 생명주기에 따른 API 연동 로직 구현
         - 결제 결과에 따른 **데이터베이스 트랜잭션 처리** 수행하여 데이터 무결성 확보
+
     1. 친구 CRUD 및 추천 구매 알고리즘 고안 및 제작 `기여도 100%`
         - 사용자 간 소셜 기능의 기본 CRUD를 구현
-        - 특정 상품을 구매한 사용자들이 함께 구매한 다른 상품을 추천하는 **시스템 알고리즘 구현**
+        - 쿼리를 사용해, 특정 상품을 구매한 사용자들이 함께 구매한 다른 상품을 추천하는 **시스템 알고리즘 구현**
 
 3. 사용 기술 
     - Java 17 & Spring Boot
-    - Ajax 
-    - JavaScript ES6+ 
+    - JavaScript  
+    - JSP & Servelet
+    - MyBatis
     - MySQL
 
 4. 트러블 슈팅
@@ -113,57 +122,93 @@ Company | Entry Date | Leave Date | Note
         - 상품 결제 구현 중,단품 결제를 POST 전송 로직으로 직접 구현하였는데 장바구니 기능을 통한 상품 결제와 연결하는데 문제가 발생했습니다. 
     - 해결 방법
         - JavaScript에서 상품 ID와 수량을 배열 형태로 동적으로 구성하고, 컨트롤러에서 효과적으로 파싱하고 반복 처리하여 여러 상품을 한 번에 결제하는 로직을 구현했습니다.
-
     - 해당 경험을 통해 알게된 점
         - 단품 결제를 먼저 구현하고 나면 장바구니와 연동하는것은 쉬울 것이라 생각하였습니다. 하지만 설계단에서 무슨 데이터를 전송할 지 정하지 않았고, 그를 쿼리로 보내면서 많은 처리가 필요하게 되었습니다. 결국 설계가 가장 중요하다는것을 깨달았습니다.
 
 
-### 3.2. 빅데이터 프로젝트(RecallCenter)
-[![recallmain](./lib/recallmain.png)](https://github.com/Wjyuy/Recall_Final)
-
-<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
-
+### 3.2. RecallCenter
+공공데이터포탈의 자동차 결함 리콜현황 데이터를 활용한 **빅데이터 프로젝트**입니다.
+[Github →](https://github.com/Wjyuy/Recall_Final)
 <details>
-<summary>shofriend 포스터</summary>
+<summary>프로젝트 포스터</summary>
 
 ![recallposter](./lib/recallposter.png)
 </details>
 
-[Render활용한 배포](https://recall-final-front.onrender.com/)링크는 BE서버 불안정으로 접속이 불가할 수 있습니다.
-
-<p>RecallCenter는 공공데이터포탈의 자동차 결함 리콜현황 데이터를 활용한 빅데이터 프로젝트입니다. </p>
-
-- 프로젝트 진행 기간 : `2025. 05. 19 ~ 2025. 05. 25`
-- JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
-- 핵심 역할 : 팀장(PM), React 기반 SPA로 FE 마이그레이션 및 컴포넌트/레이아웃화, Spring Boot 백엔드, REST API 연동, chart, pdf generater활용, Google gemini Api 활용한 챗봇기능, 분석기능 제작
-
-| division  | skill                                                     |
-|-----------|-----------------------------------------------------------|
-| **Front-end** | **React(19.1.0)**, **Node.js(v22.14.0)**, **JavaScript**  |
-| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
-| **DB** | **MySQL**                 |
+[Render배포 링크](https://recall-final-front.onrender.com/) | [공공데이터포탈 링크](https://www.data.go.kr/data/3048950/fileData.do)<br>Render배포링크는 BE서버 불안정으로 접속이 불가할 수 있습니다.
+<br>
 
 
-### 3.2. 개인 프로젝트(Gemsup)
-[![Gemsup](./lib/gemsup.png)](https://github.com/Wjyuy/Gemsup)
+1. 실제 웹사이트 화면
+    <table>
+    <tr>
+        <td align="center">홈페이지 & 챗봇</td>
+        <td align="center">공공데이터 출력</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/72b00276-146c-4e78-bfc4-62e42e088b85" alt="홈페이지" width="400"></td>
+        <td><img src="https://github.com/user-attachments/assets/e03e397e-61d2-4e9f-9898-5acaf1ffabfb" alt="공공데이터" width="400"></td>
+    </tr>
+    <tr>
+        <td align="center">통계 자료실</td>
+        <td align="center">관리자 페이지</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/ebc60902-f29a-4e59-ad51-36361e95021b" alt="통계" width="400"></td>
+        <td><img src="https://github.com/user-attachments/assets/6fdcffab-7598-4f94-ac4e-bf95aba702ec" alt="관리자" width="400"></td>
+    </tr>
+    </table>
 
-<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
+1. 프로젝트 진행 기간 `2025. 05. 19 ~ 2025. 05. 25`
 
-<p>Gemsup은 docker 배포, Typescript 적용 학습을 위해 제작한 개인 프로젝트로, IGDB api를 활용한 게임리스트 서치 및 정보출력 웹사이트입니다. </p>
+2. 내가 기여한 부분
+    1. 팀장 & PM
+        - slack-Jira 간 이슈 생성 자동화 환경 구축, slack-github 간 커밋&이슈 생성 자동화 환경 구축으로 **정보 흐름을 일원화**
+        - **스프린트-스크럼 단위의 백로그를 활용**하여 진행도와 설계에 맞춘 일정 관리 수행, 업무 분담 최적화
 
-- 프로젝트 진행 기간 : `2025. 05. 27 ~ 2025. 05.30`
-- IGDB API연동, DB 저장 및 캐싱
-- 핵심 역할 : 목록 조회(무한 스크롤, 페이징, 정렬, 필터링), 상세 정보 조회, 검색/필터 UI, 카드형 목록
+    1. JSP 프로젝트를 React를 사용한 SPA 로 리팩토링해 **UI/UX개선** `기여도 90%`
+        - 부트스트랩 기반 프로젝트를 SPA로 마이그레이션 및 컴포넌트화
+        - **React Router** 활용한 URL 기반 화면 전환 방식 선택
+        - REST API사용하는 Spring Boot 백엔드 **RestController수정**
+        - 팝업 / 플로팅 버튼 제작, Gemini API 사용해 질문과 답변을 백엔드로 받아 프롬프트 적용된 답변 하는 챗봇 기능 구현(드래그 드랍 지원)
 
-| division  | skill                                                     |
-|-----------|-----------------------------------------------------------|
-| **Front-end** | **React(19.1.0)**, **Node.js(16.x)**, **Typescript(4.9.5)** |
-| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
-| **DB** | **PostgreSQL**                 |
-| **Infra** | **Docker(3.8)**                 |
+    1. 리콜통계 분석 페이지 `기여도 100%`
+        - 시작연도 / 종료연도 / 시작월 / 종료월 선택 -> 국산, 수입에 따른 요약 표, 표를 기반으로 한 그래프를 recharts로 구현 
+        - wkhtmltox를 활용한 pdf 생성,pdf 제작용 url 페이지를 제작하고 다운로드되게 제작
+        - Gemini API 사용해 질문과 답변을 백엔드로 받아 프롬프트 적용된 답변을 pdf 페이지에 함께 출력
+
+    1. FAQ & 공지사항 CRUD `기여도 100%`
+        - 게시판 기능의 기본 CRUD를 구현
+        - 공지사항 DTO에 이전글, 다음글 기능 구현 위해 Total 활용해 게시글 이동 구현
+
+3. 사용 기술 
+    - Java 17 & Spring Boot
+    - React 19 & NodeJS & JavaScript
+    - MyBatis
+    - MySQL
+
+4. 트러블 슈팅
+    - 문제 배경
+        - 모바일 화면에서는 햄버거 메뉴, PC 화면에서는 드롭다운 형식으로 메뉴를 출력하는데, 1038px~1199px 해상도에서 메뉴바가 출력이 안되는 문제 발생
+        - 관리자 드랍다운은 페이지에서 잘려 보이는 문제 발생
+    - 해결 방법
+        - 기존 JS 방식에서 CSS 미디어 쿼리로 제어하도록 수정하고, position: fixed 사용으로 해결
+        - 모바일 드랍다운 UI 전체 개선, dropdown:last-child 속성 사용해 반대로 펼쳐지게 수정
+        
+    <table>
+        <tr>
+            <td align="center">상단바 해결 후</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/user-attachments/assets/14a64e06-440d-4f3c-95ef-17b4ec1fd503" alt="트러블" width="400"></td>
+        </tr>
+    </table>
+
+    - 해당 경험을 통해 알게된 점
+        - React 기반 프로젝트를 처음 제작하면서 SPA 기반 구조에 익숙하지 않아 ! 나 important 를 쓰면서 작은 CSS수정이 많았습니다. App.css 초기 설정을 잘 했더라면 시간을 많이 아꼈을거란 생각이 들었습니다.
 
 
-### 3.4. 빅데이터 검색 엔진 프로젝트(MoodSync)
+### 3.3. 빅데이터 검색 엔진 프로젝트(MoodSync)
 
 [![MoodSync](./lib/moodsyncmain.png)](https://github.com/Wjyuy/MoodSync)
 
