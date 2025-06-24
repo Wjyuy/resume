@@ -54,7 +54,7 @@ Company | Entry Date | Leave Date | Note
 
 ## Projects
 
-### 3.1. ShoFriend
+### 1. ShoFriend
 '메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 **상품판매 웹사이트**입니다. 
 [Github →](https://github.com/Wjyuy/Shofriend_boot)
 
@@ -126,7 +126,7 @@ Company | Entry Date | Leave Date | Note
         - 단품 결제를 먼저 구현하고 나면 장바구니와 연동하는것은 쉬울 것이라 생각하였습니다. 하지만 설계단에서 무슨 데이터를 전송할 지 정하지 않았고, 그를 쿼리로 보내면서 많은 처리가 필요하게 되었습니다. 결국 설계가 가장 중요하다는것을 깨달았습니다.
 
 
-### 3.2. RecallCenter
+### 2. RecallCenter
 공공데이터포탈의 자동차 결함 리콜현황 데이터를 활용한 **빅데이터 프로젝트**입니다.
 [Github →](https://github.com/Wjyuy/Recall_Final)
 <details>
@@ -167,7 +167,7 @@ Company | Entry Date | Leave Date | Note
         - **스프린트-스크럼 단위의 백로그를 활용**하여 진행도와 설계에 맞춘 일정 관리 수행, 업무 분담 최적화
 
     1. JSP 프로젝트를 React를 사용한 SPA 로 리팩토링해 **UI/UX개선** `기여도 90%`
-        - 부트스트랩 기반 프로젝트를 SPA로 마이그레이션 및 컴포넌트화
+        - JSP 부트스트랩 기반 프로젝트를 SPA로 마이그레이션 및 컴포넌트화
         - **React Router** 활용한 URL 기반 화면 전환 방식 선택
         - REST API사용하는 Spring Boot 백엔드 **RestController수정**
         - 팝업 / 플로팅 버튼 제작, Gemini API 사용해 질문과 답변을 백엔드로 받아 프롬프트 적용된 답변 하는 챗봇 기능 구현(드래그 드랍 지원)
@@ -205,33 +205,82 @@ Company | Entry Date | Leave Date | Note
     </table>
 
     - 해당 경험을 통해 알게된 점
-        - React 기반 프로젝트를 처음 제작하면서 SPA 기반 구조에 익숙하지 않아 ! 나 important 를 쓰면서 작은 CSS수정이 많았습니다. App.css 초기 설정을 잘 했더라면 시간을 많이 아꼈을거란 생각이 들었습니다.
+        - React 기반 프로젝트를 처음 제작하면서 SPA 기반 구조에 익숙하지 않아, ! 나 important 를 쓰면서 작은 CSS수정이 많았습니다. App.css 초기 설정을 잘 했더라면 시간을 많이 아꼈을거란 생각이 들었습니다.
 
 
-### 3.3. 빅데이터 검색 엔진 프로젝트(MoodSync)
+### 3. MoodSync
 
-[![MoodSync](./lib/moodsyncmain.png)](https://github.com/Wjyuy/MoodSync)
-
-<p>이미지 클릭 시 깃허브 링크로 이동합니다.</p>
-
-<p>MoodSync는 사용자의 감정을 파악하고 그에 맞는 음악, 책, 활동을 추천하는 웹사이트 프로젝트입니다.</p>
-
-- 프로젝트 진행 기간 : `2025. 05. 27 ~ 2025. 06. 16`
-- JSP 기반 프로젝트를 React를 사용한 SPA 로 리팩토링
-- 핵심 역할 : TypeScript구조파악 및 코드리뷰, 라우트 엔트리 포인트 컴포넌트/레이아웃화, hello-pangea적용한 로직 제작, Face-api 계산 hook 제작, Collection 페이지CRUD 및 리스트 재정렬 기능 제작, jwt와 security설정 REST API방식으로 마이그레이션
-
-| division  | skill                                                     |
-|-----------|-----------------------------------------------------------|
-| **Front-end** | **React(18.2.0)**, **Next.js(15.2.x)**, **Typescript(5)**, **tailwindcss(3.4.x)** |
-| **Back-end** | **Spring Boot (2.7.13)**, **Java (17)**, **MyBatis (2.3.1)** |
-| **DB** | **Oracle**                 |
+**Tensor flow**로 사용자의 감정을 파악하고 그에 맞는 **음악, 책, 활동을 추천**하는 웹사이트 프로젝트입니다.
+[Github →](https://github.com/Wjyuy/MoodSync)
 
 
+1. 실제 웹사이트 화면
+    <table>
+    <tr> 
+        <td align="center" colspan='2'>홈페이지 & face-api</td>
+    </tr>
+    <tr>
+        <td colspan='2'><img src="https://github.com/user-attachments/assets/c648088e-99ea-4a5a-9e73-46d485adeb55" alt="홈페이지" width="800"></td>
+    </tr>
+    <tr>
+        <td align="center">나의 Collection</td>
+        <td align="center">Collection 수정</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/afbbb9cf-ed31-4e7a-b3c3-edab3cf62f8b" alt="통계" width="400"></td>
+        <td><img src="https://github.com/user-attachments/assets/8c2f62be-0ada-4592-9ed2-b1168e8d0a24" alt="관리자" width="400"></td>
+    </tr>
+    </table>
+
+1. 프로젝트 진행 기간 `2025. 05. 27 ~ 2025. 06. 16`
+
+2. 내가 기여한 부분
+
+    1. TypeScript구조파악 및 코드리뷰 `기여도100%`
+        - 라우트 엔트리 포인트 컴포넌트/레이아웃화
+        - SSR 방식 선택, CORS 대비 SecurityConfig, WevConfig설정
+        - REST API사용하는 Spring Boot 백엔드 **RestController제작**
+        - api/base.ts를 제작하여 팀원들이 API요청을 쉽게 할 수 있도록 환경변수와 axios, interceptors 설정
+
+    1. Face-api 적용 `기여도 100%`
+        - [face-api](https://github.com/justadudewhohacks/face-api.js)에서 지원하는 7개의 감정(happy,sad,neutral,surprised,angry,gearful,disgursting)값을  MoodSync에서 사용하는 감정 6개(행복,슬픔,평온,신남,스트레스,피곤함)로 [매핑하는 계산 hook 제작](https://github.com/Wjyuy/MoodSync?tab=readme-ov-file#face-api-%EC%A0%81%EC%9A%A9%EB%B0%A9%EC%8B%9D)
+        - 감정을 전송하고, 그 값을 슬라이더로 조절해 tensorflow로 전송
+
+    1. Collection CRUD, 공유, 수정모드 제작 `기여도100%`
+        - 게시판 기능의 기본 CRUD를 구현
+        - [hello-pangea적용](https://dnwndus.tistory.com/entry/React-react-beautiful-dnd-%EB%93%9C%EB%9E%98%EA%B7%B8-%EB%93%9C%EB%9E%8D-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)한 드래그/드랍으로 순서 변경기능 제작
+
+    1. jwt와 security설정 REST API방식으로 마이그레이션 `기여도50%`
+        - React에서 활용하기 위한 RestController생성 및 authentication, generateToken 활용
+        - api/auth.ts에서 API형태로 HTTP요청, 비동기로 웹 폼 데이터 처리
+        
+3. 사용 기술 
+    - Java 17 & Spring Boot
+    - React 18 & NextJS & Typescript
+    - MyBatis
+    - Oracle
+    - TensorFlow
+
+4. 트러블 슈팅
+    - 문제 배경
+        - 페이지 첫 로딩 시 토큰 유무를 확인해, 로그인 상태 체크 후 헤더에 표현하는데 비정상적 작동이 잦았습니다.
+        - 또한 관리자 토큰을 추가하면서, 토큰 체크에 로딩시간이 너무 길어지는 문제가 발생하였습니다.
+
+    - 해결 방법
+        - zustand를 활용한 authStore.ts를 제작하고, 헤더 로딩 시 토큰을 먼저 체크하도록 컴포넌트를 배치하여 해결하였습니다. 
+        - 앱 시작 시 인증 상태를 확인하는 AuthInitializer.tsx가 중복호출 되던 것을 발견하고 수정하였습니다.
+        - 스피너를 추가해 토큰 체크 중 헤더를 두가지 방식으로 사용하던 것을 한가지 방식으로 수정하였습니다.
+
+    - 해당 경험을 통해 알게된 점
+        - 관리자 페이지를 다른 팀원이 제작하면서 불필요한 코드가 추가되었는데, 관리자 컴포넌트와 인증 컴포넌트를 제작한 사람이 달라지면서 생긴 문제였습니다. 소통의 중요성을 다시 한번 깨닫는 계기가 되었습니다. 
+
+
+### Project Github
 
 Project            | Skills           | Description
 -------------------|------------------|-----------------------------
-[ShoFriend](https://github.com/Wjyuy/Shofriend_boot) | spring boot | 팀 프로젝트(팀장), 전체 프로젝트 기여도 : 50% 
-[RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트(팀장), 전체 프로젝트 기여도 : 50% 
+[ShoFriend](https://github.com/Wjyuy/Shofriend_boot) | spring boot | 팀 프로젝트(팀장)
+[RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트(팀장)
 [GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & TypeScript | 개인 프로젝트
-[MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트, 전체 프로젝트 기여도 : 30% 
+[MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트
 
