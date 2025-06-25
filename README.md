@@ -6,7 +6,7 @@
 항상 겸손한 자세로 새로운 것을 배우고자 노력합니다. 공부한 내용은 [블로그](https://dnwndus.tistory.com/)와 [노션](https://bottlenose-broker-f2a.notion.site/6bff4e6cee5a40f8855b14e279ff7e87)에 포스팅하고 있습니다.
 
 ### 협업의 중요성을 잘 알고 있습니다.
-Slack과 Jira를 활용한 이슈관리를 통해 프로젝트의 히스토리를 투명하게 기록하고 공유하는 것이 팀원 간의 원활한 소통과 효율적인 문제 해결에 결정적인 역할을 한다는 것을 체감했습니다. 명확한 문서화와 팀원들끼리 같은 정보를 기반으로 협력할 수 있는 견고한 협업 환경을 구축하고 싶습니다.
+Slack과 Jira를 활용한 이슈관리를 통해 프로젝트의 히스토리를 투명하게 기록하고 공유하는 것이 팀원 간의 원활한 소통과 효율적인 문제 해결에 결정적인 역할을 한다는 것을 체감했습니다. 명확한 문서화와 팀원끼리 같은 정보를 기반으로 협력할 수 있는 견고한 협업 환경을 구축하고 싶습니다.
 
 ### Profile
 이름: 우 주연
@@ -33,29 +33,29 @@ Company | Entry Date | Leave Date | Note
   
 ### Oracle & MySQL 
 - 쿼리 최적화 및 인덱싱을 통해 성능 개선 경험이 있습니다.
-- JOIN 쿼리, View, Procedure등을 작성하여 데이터를 효율적으로 조회하고 조작할 수 있습니다.
+- JOIN 쿼리, View, Procedure 등을 작성하여 데이터를 효율적으로 조회하고 조작할 수 있습니다.
   
 ### NextJS 
 - API Routes를 활용하여 BFF 레이어를 구축하고 관리한 경험이 있습니다.
   - Axios interceptor를 활용하여 중앙집중식 API 요청 및 응답 처리 로직을 구현했습니다. 이를 통해 JWT인증 자동화 및 공통 에러 핸들링을 효과적으로 처리했습니다.
-- CRUD및 특정 비즈니스 로직(순서 변경,복사 등)을 처리하는 다양한 API 연동 함수를 구현했습니다.
+- CRUD 및 특정 비즈니스 로직(순서 변경, 복사 등)을 처리하는 다양한 API 연동 함수를 구현했습니다.
   
 ### TypeScript & JavaScript 
 - 비동기 처리를 활용한 프로그래밍이 가능합니다.
-- React / Next.js 환경에서 TypeScript를 적용하여 타입 안정성을 확보하며 개발한 경험이 있습니다.
-- 클린 코드 및 재사용 가능한 컴포넌트 설계 원칙을 준수하여 개발할 수 있습니다.
+- React / NextJS 환경에서 TypeScript를 적용하여 타입 안정성을 확보하며 개발한 경험이 있습니다.
+- 클린 코드 및 재사용할 수 있는 컴포넌트 설계 원칙을 준수하여 개발할 수 있습니다.
   
 ### ETC 
 - Docker
   - Image 관리 및 애플리케이션을 컨테이너화하고 배포 환경을 구축한 경험이 있습니다.
 - Slack & Jira & Flow
-  - 프로젝트 팀장으로서, PM역할을 맡아 자동화 환경을 구축한 경험이 있습니다.
+  - 프로젝트팀장으로서, PM 역할을 맡아 자동화 환경을 구축한 경험이 있습니다.
 
 
 ## Projects
 
 ### 1. ShoFriend
-'메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'는 아이디어에서 시작한 **상품판매 웹사이트**입니다. 
+'메신저와 쇼핑몰 기능을 합친 웹 사이트를 제작하면 좋겠다'라는 아이디어에서 시작한 **상품 판매 웹사이트**입니다. 
 [Github →](https://github.com/Wjyuy/Shofriend_boot)
 
 <details>
@@ -76,7 +76,7 @@ Company | Entry Date | Leave Date | Note
         <td><img src="https://github.com/user-attachments/assets/bb2567a7-ae80-4ea1-9dea-1d31ac72ee7e" alt="결제" width="400"></td>
     </tr>
     <tr>
-        <td align="center">친구공유 & 채팅</td>
+        <td align="center">친구 공유 & 채팅</td>
         <td align="center">판매자</td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ Company | Entry Date | Leave Date | Note
         <td><img src="https://github.com/user-attachments/assets/63011e46-481e-4496-81e5-fb3259d8db5b" alt="판매자" width="400"></td>
     </tr>
     </table>
-1. 프로젝트 진행 기간 `2025. 05. 07 ~ 2025. 05. 14`
+1. 프로젝트 진행 기간 `2025. 05. 07~2025. 05. 14`
 
 2. 내가 기여한 부분
     1. 팀장 & PM
