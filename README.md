@@ -183,7 +183,7 @@ Company | Entry Date | Leave Date | Note
 
 3. 사용 기술 
     - Java 17 & Spring Boot
-    - React 19 & NodeJS & JavaScript
+    - React 19 (JSX)  & NodeJS & JavaScript
     - MyBatis
     - MySQL
 
@@ -256,7 +256,7 @@ Company | Entry Date | Leave Date | Note
         
 3. 사용 기술 
     - Java 17 & Spring Boot
-    - React 18 & NextJS & Typescript
+    - React 18 (JSX) & NextJS & Typescript
     - MyBatis
     - Oracle
     - TensorFlow
