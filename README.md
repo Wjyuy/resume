@@ -283,4 +283,5 @@ Project            | Skills           | Description
 [RecallCenter](https://github.com/Wjyuy/Recall_Final) | spring boot & React | 팀 프로젝트(팀장)
 [GemSup](https://github.com/Wjyuy/docker_PJ) | spring boot & TypeScript | 개인 프로젝트
 [MoodSync](https://github.com/Wjyuy/MoodSync) | spring boot & TypeScript | 팀 프로젝트
+[ChalGaBot](https://github.com/Wjyuy/Chal-Ga-Bot) | NodeJS & JavaScript | 개인 프로젝트
 
