@@ -12,7 +12,6 @@ Slack과 Jira를 활용한 이슈관리를 통해 프로젝트의 히스토리�
 이름: 우 주연
 
   - 📅 2002-08-27
-  - 📞 010-2374-0030
   - [Github](https://github.com/Wjyuy)
   - [Blog](https://dnwndus.tistory.com/)
   - zhzhwm@naver.com
