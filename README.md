@@ -35,7 +35,7 @@ Company | Entry Date | Leave Date | Note
 - 쿼리 최적화 및 인덱싱을 통해 성능 개선 경험이 있습니다.
 - JOIN 쿼리, View, Procedure 등을 작성하여 데이터를 효율적으로 조회하고 조작할 수 있습니다.
   
-### NextJS 
+### NextJS & NodeJS
 - API Routes를 활용하여 BFF 레이어를 구축하고 관리한 경험이 있습니다.
   - Axios interceptor를 활용하여 중앙집중식 API 요청 및 응답 처리 로직을 구현했습니다. 이를 통해 JWT인증 자동화 및 공통 에러 핸들링을 효과적으로 처리했습니다.
 - CRUD 및 특정 비즈니스 로직(순서 변경, 복사 등)을 처리하는 다양한 API 연동 함수를 구현했습니다.
